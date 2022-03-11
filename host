@@ -48,6 +48,14 @@ ff02::3 ip6-allhosts
 ########################
 #
 # START - BlOCKING WINDOWS UPDATES
+0.0.0.0 dl.windowsupdate.com
+0.0.0.0 windowsupdate.com
+0.0.0.0 download.windowsupdate.com
+0.0.0.0 au.download.windowsupdate.com
+0.0.0.0 ctldl.windowsupdate.com
+0.0.0.0 ctldl.windowsupdate.com/msdownload
+0.0.0.0 update.microsoft.com
+0.0.0.0 dl.delivery.mp.microsoft.com
 0.0.0.0 fe3.delivery.mp.microsoft.com
 0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 0.0.0.0 sls.update.microsoft.com
