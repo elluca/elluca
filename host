@@ -197,8 +197,8 @@ ff02::3 ip6-allhosts
 # END - BLOCKING MS PHOTO GALLERY
 #
 # START - Weather App Live Tile
-0.0.0.0 tile-service.weather.microsoft.com
-0.0.0.0 blob.weather.microsoft.com
+#0.0.0.0 tile-service.weather.microsoft.com
+#0.0.0.0 blob.weather.microsoft.com
 # END   - Weather App Live Tile
 #
 # START - One Note Live Tile
@@ -218,7 +218,7 @@ ff02::3 ip6-allhosts
 # END   - AppHostRegistrationVerifier.exe
 #
 # START - Store Images - Endpoint is used to get images that are used for Microsoft Store suggestions - update Cortana greetings, tips, and Live Tiles
-0.0.0.0 store-images.s-microsoft.com
+#0.0.0.0 store-images.s-microsoft.com
 # END   - Store Images - Endpoint is used to get images that are used for Microsoft Store suggestions - update Cortana greetings, tips, and Live Tiles
 #
 # START - Configure parameters, such as how often the Live Tile is updated, and for enabling experimental features.
@@ -230,7 +230,7 @@ ff02::3 ip6-allhosts
 # END   - Cortana uses this website to report diagnostic data information
 #
 # START - Endpoint used to authenticate a device.
-0.0.0.0 login.live.com/ppsecure
+#0.0.0.0 login.live.com/ppsecure
 # END   - Endpoint used to authenticate a device.
 #
 #START - Windows Error Reporting.
@@ -238,8 +238,8 @@ ff02::3 ip6-allhosts
 # END  - Windows Error Reporting.
 #
 # START - Download fonts on demand
-0.0.0.0 fs.microsoft.com
-0.0.0.0 fs.microsoft.com/fs/windows/config.json
+#0.0.0.0 fs.microsoft.com
+#0.0.0.0 fs.microsoft.com/fs/windows/config.json
 # END   - Download fonts on demand
 #
 # START - Online activation and some app licensing
@@ -251,23 +251,23 @@ ff02::3 ip6-allhosts
 # END   - Location Data
 #
 # START - Microsoft accounts sign-in
-0.0.0.0 login.msa.akadns6.net
-0.0.0.0 ipv4.login.msa.akadns6.net
-0.0.0.0 auth.gfx.ms
+#0.0.0.0 login.msa.akadns6.net
+#0.0.0.0 ipv4.login.msa.akadns6.net
+#0.0.0.0 auth.gfx.ms
 # END   - Microsoft accounts sign-in
 #
 # START - Download image files that are called when applications run (Microsoft Store or Inbox MSN Apps) & Store.
-0.0.0.0 storecatalogrevocation.storequality.microsoft.com
-0.0.0.0 store-images.microsoft.com
-0.0.0.0 storeedgefd.dsx.mp.microsoft.com
-0.0.0.0 pti.store.microsoft.com
-0.0.0.0 displaycatalog.mp.microsoft.com
-0.0.0.0 cy2.*.md.mp.microsoft.com.*. ### *.WILDCARS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
-0.0.0.0 *.tlu.dl.delivery.mp.microsoft.com.c.footprint.net 	### *.WILDCARS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
+#0.0.0.0 storecatalogrevocation.storequality.microsoft.com
+#0.0.0.0 store-images.microsoft.com
+#0.0.0.0 storeedgefd.dsx.mp.microsoft.com
+#0.0.0.0 pti.store.microsoft.com
+#0.0.0.0 displaycatalog.mp.microsoft.com
+#0.0.0.0 cy2.*.md.mp.microsoft.com.*. ### *.WILDCARS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
+#0.0.0.0 *.tlu.dl.delivery.mp.microsoft.com.c.footprint.net 	### *.WILDCARS DO NOT WORK IN HOSTS FILE, USE FIREWALL TO BLOCK ####
 # END   - Download image files that are called when applications run (Microsoft Store or Inbox MSN Apps) & Store.
 #
 # START - Network Connection Status Indicator (NCSI) detects Internet connectivity and corporate network connectivity status.
-0.0.0.0 www.msftconnecttest.com/connecttest.txt
+#0.0.0.0 www.msftconnecttest.com/connecttest.txt
 # END   - Network Connection Status Indicator (NCSI) detects Internet connectivity and corporate network connectivity status.
 #
 # START - OneDrive for Business to download and verify app updates.
@@ -364,7 +364,7 @@ ff02::3 ip6-allhosts
 0.0.0.0	lb1.www.ms.akadns.net
 0.0.0.0	live.rads.msn.com
 0.0.0.0	m.adnxs.com
-0.0.0.0	m.hotmail.com
+#0.0.0.0	m.hotmail.com
 0.0.0.0	msedge.net
 0.0.0.0	msftncsi.com
 0.0.0.0	msnbot-65-55-108-23.search.msn.com
