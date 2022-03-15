@@ -214,7 +214,7 @@ ff02::3 ip6-allhosts
 # END   - AppHostRegistrationVerifier.exe & Groove Music
 #
 # START - AppHostRegistrationVerifier.exe 
-0.0.0.0 mediaredirect.microsoft.com
+#0.0.0.0 mediaredirect.microsoft.com
 # END   - AppHostRegistrationVerifier.exe
 #
 # START - Store Images - Endpoint is used to get images that are used for Microsoft Store suggestions - update Cortana greetings, tips, and Live Tiles
@@ -222,11 +222,11 @@ ff02::3 ip6-allhosts
 # END   - Store Images - Endpoint is used to get images that are used for Microsoft Store suggestions - update Cortana greetings, tips, and Live Tiles
 #
 # START - Configure parameters, such as how often the Live Tile is updated, and for enabling experimental features.
-0.0.0.0 www.bing.com/client
+#0.0.0.0 www.bing.com/client
 # END   - Configure parameters, such as how often the Live Tile is updated, and for enabling experimental features.
 #
 # START - Cortana uses this website to report diagnostic data information
-0.0.0.0 www.bing.com/proactive
+#0.0.0.0 www.bing.com/proactive
 # END   - Cortana uses this website to report diagnostic data information
 #
 # START - Endpoint used to authenticate a device.
@@ -243,11 +243,11 @@ ff02::3 ip6-allhosts
 # END   - Download fonts on demand
 #
 # START - Online activation and some app licensing
-0.0.0.0 licensing.mp.microsoft.com/v7.0/licenses/content
+#0.0.0.0 licensing.mp.microsoft.com/v7.0/licenses/content
 # END   - Online activation and some app licensing
 #
 # START - Location Data
-0.0.0.0 location-inference-westus.cloudapp.net
+#0.0.0.0 location-inference-westus.cloudapp.net
 # END   - Location Data
 #
 # START - Microsoft accounts sign-in
