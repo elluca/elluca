@@ -325,7 +325,7 @@ ff02::3 ip6-allhosts
 0.0.0.0	api.redshell.io
 0.0.0.0	app.adjust.com
 0.0.0.0	app.adjust.io
-0.0.0.0	apps.skype.com
+#0.0.0.0	apps.skype.com
 0.0.0.0	az361816.vo.msecnd.net
 0.0.0.0	az512334.vo.msecnd.net
 0.0.0.0	b.ads1.msn.com
@@ -373,7 +373,7 @@ ff02::3 ip6-allhosts
 0.0.0.0	oca.telemetry.microsoft.com.nsatc.net
 0.0.0.0	pre.footprintpredict.com
 0.0.0.0	preview.msn.com
-0.0.0.0	pricelist.skype.com
+#0.0.0.0	pricelist.skype.com
 0.0.0.0	rad.live.com
 0.0.0.0	rad.msn.com
 0.0.0.0	redir.metaservices.microsoft.com
