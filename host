@@ -1278,7 +1278,7 @@ star-mini.c10r.facebook.com
 # END   - Download image files that are called when applications run (Microsoft Store or Inbox MSN Apps) & Store.
 #
 # START - Network Connection Status Indicator (NCSI) detects Internet connectivity and corporate network connectivity status.
-::1 www.msftconnecttest.com/connecttest.txt
+#::1 www.msftconnecttest.com/connecttest.txt
 # END   - Network Connection Status Indicator (NCSI) detects Internet connectivity and corporate network connectivity status.
 #
 # START - OneDrive for Business to download and verify app updates.
