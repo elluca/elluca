@@ -268,6 +268,7 @@ ff02::3 ip6-allhosts
 #
 # START - Network Connection Status Indicator (NCSI) detects Internet connectivity and corporate network connectivity status.
 #0.0.0.0 www.msftconnecttest.com/connecttest.txt
+#0.0.0.0 www.msftconnecttest.com/redirect
 # END   - Network Connection Status Indicator (NCSI) detects Internet connectivity and corporate network connectivity status.
 #
 # START - OneDrive for Business to download and verify app updates.
