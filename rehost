@@ -1038,6 +1038,9 @@ ff02::3 ip6-allhosts
 0.0.0.0	2266.vmix.com
 0.0.0.0	www.vmix.com
 #================================================#
+#=============Blocking Website===================#
+0.0.0.0 https://dramakoreaindo.xyz/
+0.0.0.0 https://semawur.com
 #
 #
 #
